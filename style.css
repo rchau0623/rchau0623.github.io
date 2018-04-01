@@ -1,0 +1,29 @@
+body {
+	background: rgba(22,7,15,.9);
+	color: #FFFFFC;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.path {
+	color: #639DD0;
+	font-weight: bold;
+}
+
+.name {
+	color: #8BDE30;
+	font-weight: bold;
+}
+
+.symbol {
+	color: #FAF9FA;
+	font-weight: bold;
+}
+  
+a {
+	color: #FAF9FA;
+}
+
+.folder {
+	color: #639DD0;
+	font-weight: 600;
+}

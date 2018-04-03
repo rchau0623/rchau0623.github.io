@@ -27,3 +27,14 @@ a {
 	color: #639DD0;
 	font-weight: 600;
 }
+
+.projects {
+	display: none;
+}
+
+.experience {
+	display: none;
+}
+.contact {
+	display: none;
+}

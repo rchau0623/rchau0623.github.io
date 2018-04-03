@@ -2,6 +2,7 @@ body {
 	background: rgba(22,7,15,.9);
 	color: #FFFFFC;
 	font-family: 'Ubuntu Mono', monospace;
+
 }
 
 .path {
@@ -26,6 +27,10 @@ a {
 .folder {
 	color: #639DD0;
 	font-weight: 600;
+}
+
+.about {
+	display: none;
 }
 
 .projects {

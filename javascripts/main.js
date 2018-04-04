@@ -69,9 +69,15 @@ Hi. My name is
 
 <img src="img/name.png" alt="name">
 
-I am currently a senior at NYU studying Math and Computer Science. 
+I am currently a senior at NYU studying Math and Computer Science, looking for full time employment. 
 
 I enjoy solving problems, mulling over movies, reading out loud, and aspiring to be healthy. 
+
+Welcome to my Linux terminal based website. 
+
+For nontechnical people, I apologize that my website may be a bit confusing. Links to navigate through the website are located on the third line, under the ls command, always. 
+
+For technical people, I hope you enjoy my use of theme as an excuse for minimalism. 
 	</pre>
 </span>
 `;
@@ -615,7 +621,6 @@ function main() {
 			contact();
 		}
 	});
-
 }
 
 document.addEventListener('DOMContentLoaded', main)

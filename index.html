@@ -16,9 +16,10 @@
 	      	$(".start_command").typed({
 				strings: ["cd Documents/Super\\ Secret\\ Links/"],
 				showCursor: false,
-				typeSpeed: 10,
+				typeSpeed: 0,
 				loop: false,
 				callback: function() {
+					// $(".typed-cursor").hide();
 					document.querySelector('.links').style.display = 'block';
 
 					$(".link_command").typed({
@@ -27,8 +28,8 @@
 						typeSpeed: 100,
 						loop: false,
 						callback: function() {
+							// $(".typed-cursor").hide();
 							document.querySelector('.link_output').style.display = 'block';
-
 							document.querySelector('.next').style.display = 'block';
 						}
 					});

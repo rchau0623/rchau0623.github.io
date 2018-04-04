@@ -18,6 +18,7 @@ pre {
 	position: absolute;
 	margin-left: 15%;
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .links, .link_output, .next {
@@ -46,6 +47,7 @@ pre {
 
 a {
 	color: #FAF9FA;
+	margin-right: 25px;
 }
 
 a.file:hover { 

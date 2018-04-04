@@ -326,7 +326,7 @@ function experience() {
 </small>
 
 <b>Stony Brook University</b> • Bachelors in Applied Mathematics and Statistics, and Computer Science
-<i>Stony Brook, NY (August 2014 — May 2015)<i>
+<i>Stony Brook, NY (August 2014 — May 2015)</i>
 <small>
   • <b>Relevant Coursework:</b> Philosophical Engineering, Calculus III, Linear Algebra, Ordinary Differential Equations
  </small>

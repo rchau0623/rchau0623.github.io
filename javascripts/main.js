@@ -15,7 +15,7 @@ function type_open(link, folder) {
 	$('.open_command').typed({
 		strings: ['xdg-open ' + link],
 		showCursor: false,
-		typeSpeed: 8,	
+		typeSpeed: 2,	
 		loop: false,
 		callback: function() {
 			// $('.typed-cursor").hide();
@@ -67,14 +67,7 @@ function about() {
 	<pre>
 Hi. My name is
 
-
-██████╗ ██╗   ██╗ █████╗ ███╗  ██╗   
-██╔══██╗╚██╗ ██╔╝██╔══██╗████╗ ██║   
-██████╔╝ ╚████╔╝ ███████║██╔██╗██║   
-██╔══██╗  ╚██╔╝  ██╔══██║██║╚████║   
-██║  ██║   ██║   ██║  ██║██║ ╚███║ ██╗
-╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚══╝ ╚═╝
-
+<img src="img/name.png" alt="name">
 
 I am currently a senior at NYU studying Math and Computer Science. 
 
@@ -95,7 +88,7 @@ I enjoy solving problems, mulling over movies, reading out loud, and aspiring to
 	$('.command1').typed({
 		strings: ['cat About.txt'],
 		showCursor: false,
-		typeSpeed: 10,	
+		typeSpeed: 2,	
 		loop: false,
 		callback: function() {
 			line1.appendChild(output1);
@@ -159,7 +152,7 @@ function projects() {
 	$('.command1').typed({
 		strings: ['cd Projects'],
 		showCursor: false,
-		typeSpeed: 10,	
+		typeSpeed: 2,	
 		loop: false,
 		callback: function() {
 			// $('.typed-cursor").hide();
@@ -176,7 +169,7 @@ function projects() {
 					$('.command3').typed({
 						strings: ['cat Smoodify'],
 						showCursor: false,
-						typeSpeed: 10,	
+						typeSpeed: 2,	
 						loop: false,
 						callback: function() {
 							// $('.typed-cursor").hide();
@@ -372,7 +365,7 @@ function experience() {
 	$('.command1').typed({
 		strings: ["cd Experience"],
 		showCursor: false,
-		typeSpeed: 10,	
+		typeSpeed: 2,	
 		loop: false,
 		callback: function() {
 			// $(".typed-cursor").hide();
@@ -389,7 +382,7 @@ function experience() {
 					$(".command3").typed({
 						strings: ["cat Skills"],
 						showCursor: false,
-						typeSpeed: 5,	
+						typeSpeed: 2,
 						loop: false,
 						callback: function() {
 							// $(".typed-cursor").hide();
@@ -398,7 +391,7 @@ function experience() {
 							$(".command4").typed({
 								strings: ["cat Work\\ Experience"],
 								showCursor: false,
-								typeSpeed: 5,	
+								typeSpeed: 2,	
 								loop: false,
 								callback: function() {
 									// $(".typed-cursor").hide();
@@ -408,7 +401,7 @@ function experience() {
 									$(".command5").typed({
 										strings: ["cat Education"],
 										showCursor: false,
-										typeSpeed: 5,	
+										typeSpeed: 2,
 										loop: false,
 										callback: function() {
 											// $(".typed-cursor").hide();
@@ -474,7 +467,7 @@ function contact() {
 	$('.command1').typed({
 		strings: ['cd Contact'],
 		showCursor: false,
-		typeSpeed: 10,	
+		typeSpeed: 2,	
 		loop: false,
 		callback: function() {
 			// $('.typed-cursor").hide();
@@ -503,7 +496,7 @@ function clear(callback) {
 	$('.clear').typed({
 		strings: ['clear'],
 		showCursor: false,
-		typeSpeed: 100,
+		typeSpeed: 10,
 		loop: false,
 		callback: function() {
 			// $('.typed-cursor").hide();

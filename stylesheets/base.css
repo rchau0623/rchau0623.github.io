@@ -4,6 +4,22 @@ body {
 	font-family: 'Ubuntu Mono', monospace;
 }
 
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+.container {
+	font-size: 18px;
+	width: 70%;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
 .links, .link_output, .next {
 	display: none;
 }

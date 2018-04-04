@@ -15,17 +15,18 @@ function about() {
 	<pre>
 Hi. My name is
 
-██████╗ ██╗   ██╗ █████╗ ███╗  ██╗
-██╔══██╗╚██╗ ██╔╝██╔══██╗████╗ ██║
-██████╔╝ ╚████╔╝ ███████║██╔██╗██║
-██╔══██╗  ╚██╔╝  ██╔══██║██║╚████║
-██║  ██║   ██║   ██║  ██║██║ ╚███║
-╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚══╝
-                                   
+
+██████╗ ██╗   ██╗ █████╗ ███╗  ██╗   
+██╔══██╗╚██╗ ██╔╝██╔══██╗████╗ ██║   
+██████╔╝ ╚████╔╝ ███████║██╔██╗██║   
+██╔══██╗  ╚██╔╝  ██╔══██║██║╚████║   
+██║  ██║   ██║   ██║  ██║██║ ╚███║ ██╗
+╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚══╝ ╚═╝
+
 
 I am currently a senior at NYU studying Math and Computer Science. 
 
-I enjoy solving problems, mulling over movies, reading outloud, and aspiring to be healthy. 
+I enjoy solving problems, mulling over movies, reading out loud, and aspiring to be healthy. 
 	</pre>
 </span>
 `;
@@ -52,11 +53,146 @@ I enjoy solving problems, mulling over movies, reading outloud, and aspiring to 
 }
 
 function projects() {
+	const line1 = document.createElement('div');
+	line1.setAttribute('class', 'line1');
+	line1.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links</span><span class="symbol">$</span>
+<span class="command1"></span>
+`;
 
+	const line2 = document.createElement('div');
+	line2.setAttribute('class', 'line2');
+	line2.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command2"></span>
+`;
+
+	const output1 = document.createElement('div');
+	output1.setAttribute('class', 'output1');
+	output1.innerHTML = `
+<a class="file">Smoodify</a>
+<a class="file">BlackJack</a>
+`;
+
+	const line3 = document.createElement('div');
+	line3.setAttribute('class', 'line3');
+	line3.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command3"></span>
+`;
+
+	const output2 = document.createElement('div');
+	output2.setAttribute('class', 'output2');
+	output2.innerHTML = `
+
+`;
+
+	const cd = document.createElement('div');
+	cd.setAttribute('class', 'cd');
+	cd.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="out"></span>
+`;
+
+	const footer = document.createElement('div');
+	footer.setAttribute('class', 'footer');
+	footer.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links</span><span class="symbol">$</span>
+<span class="clear"></span>
+`;
+	content.appendChild(line1);
+
+	$(".command1").typed({
+		strings: ["cd Projects"],
+		showCursor: false,
+		typeSpeed: 10,	
+		loop: false,
+		callback: function() {
+			content.appendChild(line2);
+			$(".command2").typed({
+				strings: ["ls"],
+				showCursor: false,
+				typeSpeed: 100,	
+				loop: false,
+				callback: function() {
+					line2.appendChild(output1);
+					content.appendChild(line3);
+					$(".command3").typed({
+						strings: ["cat Smoodify"],
+						showCursor: false,
+						typeSpeed: 10,	
+						loop: false,
+						callback: function() {
+							line3.appendChild(output2)
+							content.appendChild(cd);
+							footer.style.display = 'none';
+							content.appendChild(footer);
+						}
+					});
+				}
+			});
+		}
+	});
 }
 
 function experience() {
+	const line1 = document.createElement('div');
+	line1.setAttribute('class', 'line1');
+	line1.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links</span><span class="symbol">$</span>
+<span class="command1"></span>
+`;
 
+	const line2 = document.createElement('div');
+	line2.setAttribute('class', 'line2');
+	line2.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Experience</span><span class="symbol">$</span>
+<span class="command2"></span>
+`;
+
+	const output1 = document.createElement('div');
+	output1.setAttribute('class', 'output1');
+	output1.innerHTML = `
+<a class="file">Previous</a>
+<a class="file">Resume.txt</a>
+`;
+
+	const cd = document.createElement('div');
+	cd.setAttribute('class', 'cd');
+	cd.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Experience</span><span class="symbol">$</span>
+<span class="out"></span>
+`;
+
+	const footer = document.createElement('div');
+	footer.setAttribute('class', 'footer');
+	footer.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links</span><span class="symbol">$</span>
+<span class="clear"></span>
+`;
+	content.appendChild(line1);
+
+	$(".command1").typed({
+		strings: ["cd Experience"],
+		showCursor: false,
+		typeSpeed: 10,	
+		loop: false,
+		callback: function() {
+			content.appendChild(line2);
+			$(".command2").typed({
+				strings: ["ls"],
+				showCursor: false,
+				typeSpeed: 100,	
+				loop: false,
+				callback: function() {
+					line2.appendChild(output1);
+					content.appendChild(cd);
+					footer.style.display = 'none';
+					content.appendChild(footer);
+				}
+			});
+		}
+	});
 }
 
 function contact() {
@@ -83,9 +219,9 @@ function contact() {
 <a href="mailto:rchau@nyu.edu" class="file">Email</a>
 `;
 
-	const line3 = document.createElement('div');
-	line3.setAttribute('class', 'line2');
-	line3.innerHTML = `
+	const cd = document.createElement('div');
+	cd.setAttribute('class', 'cd');
+	cd.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Contact</span><span class="symbol">$</span>
 <span class="out"></span>
 `;
@@ -112,7 +248,7 @@ function contact() {
 				loop: false,
 				callback: function() {
 					line2.appendChild(output1);
-					content.appendChild(line3);
+					content.appendChild(cd);
 					footer.style.display = 'none';
 					content.appendChild(footer);
 				}

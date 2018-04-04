@@ -1,0 +1,62 @@
+body {
+	background: rgba(22,7,15,.9);
+	color: #FFFFFC;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.link_line, .link_output {
+	display: none;
+}
+
+.about, .about_output1 {
+	display: none;
+}
+
+.next, .footer, .section_footer {
+	display: none;
+}
+
+.projects, .projects .output {
+	display: none;
+}
+
+
+.experience, .experience .output {
+	display: none;
+}
+
+.contact, .contact .output, .contact_line2, .contact_line3 {
+	display: none;
+}
+
+.path {
+	color: #639DD0;
+	font-weight: bold;
+}
+
+.name {
+	color: #8BDE30;
+	font-weight: bold;
+}
+
+.symbol {
+	color: #FAF9FA;
+	font-weight: bold;
+}
+  
+a {
+	color: #FAF9FA;
+}
+
+a.file:hover { 
+	text-shadow: #FFFFFC 0 0 10px;
+}
+
+a.folder:hover { 
+	text-shadow: #639DD0 0 0 10px;
+}
+
+.folder {
+	color: #639DD0;
+	font-weight: 600;
+}

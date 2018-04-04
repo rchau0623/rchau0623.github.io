@@ -2,7 +2,10 @@ body {
 	background: rgba(22,7,15,.9);
 	color: #FFFFFC;
 	font-family: 'Ubuntu Mono', monospace;
+}
 
+.links, .link_output, .next {
+	display: none;
 }
 
 .path {
@@ -20,6 +23,11 @@ body {
 	font-weight: bold;
 }
   
+.folder {
+	color: #639DD0;
+	font-weight: 600;
+}
+
 a {
 	color: #FAF9FA;
 }
@@ -30,24 +38,4 @@ a.file:hover {
 
 a.folder:hover { 
 	text-shadow: #639DD0 0 0 10px;
-}
-
-.folder {
-	color: #639DD0;
-	font-weight: 600;
-}
-
-.about {
-	display: none;
-}
-
-.projects {
-	display: none;
-}
-
-.experience {
-	display: none;
-}
-.contact {
-	display: none;
 }

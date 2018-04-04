@@ -5,122 +5,58 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/animate.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+	<meta charset="utf-8"/>
 </head>
 <body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="javascripts/main.js"></script>
+	<script src="javascripts/typed.js"></script>
+	<script>
+		$(function(){
+	      	$(".start_command").typed({
+				strings: ["cd Documents/Super\\ Secret\\ Links/"],
+				showCursor: false,
+				typeSpeed: 10,
+				loop: false,
+				callback: function() {
+					document.querySelector('.links').style.display = 'block';
+
+					$(".link_command").typed({
+						strings: ["ls"],
+						showCursor: false,
+						typeSpeed: 100,
+						loop: false,
+						callback: function() {
+							document.querySelector('.link_output').style.display = 'block';
+
+							document.querySelector('.next').style.display = 'block';
+						}
+					});
+				}
+			});
+		});
+	</script>
 	<div class="container">
 		<div class="header">
-			<div class="top line">
+			<div class="start">
 				<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~</span><span class="symbol">$</span>
-				<span class="command">cd Douments/Super\ Secret/</span>
-				<div class="output"></div>
+				<span class="start_command"></span>
 			</div>
-			<div class="link line">
-				<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret</span><span class="symbol">$</span>
-				<span class="command">ls</span>
-				<div class="output">
-					<a class="aboutlink file">About.txt</a>
-					<a class="projectslink folder">Projects</a>
-					<a class="experiencelink folder">Experience</a>
-					<a class="contactlink folder">Contact</a>
+			<div class="links">
+				<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links</span><span class="symbol">$</span>
+				<span class="link_command"></span>
+				<div class="link_output">
+					<a class="about_link file">About.txt</a>
+					<a class="projects_link folder">Projects</a>
+					<a class="experience_link folder">Experience</a>
+					<a class="contact_link folder">Contact</a>
 				</div>
+			</div>
+			<div class="next">
+				<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links</span><span class="symbol">$</span>
 			</div>
 		</div>
 		<div class="content">
-			<div class="about">
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret</span><span class="symbol">$</span>
-					<span class="command">cat About.txt</span>
-					<div class="output">
-						<span>
-							<pre>
-Hi. My name is
-
-██████╗ ██╗   ██╗ █████╗ ███╗  ██╗
-██╔══██╗╚██╗ ██╔╝██╔══██╗████╗ ██║
-██████╔╝ ╚████╔╝ ███████║██╔██╗██║
-██╔══██╗  ╚██╔╝  ██╔══██║██║╚████║
-██║  ██║   ██║   ██║  ██║██║ ╚███║
-╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚══╝
-                                   
-
-I am currently a senior at NYU studying Math and Computer Science. 
-
-I enjoy solving problems, mulling over movies, reading outloud, and aspiring to be healthy. 
-							</pre>
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="projects">
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret</span><span class="symbol">$</span>
-					<span class="command">cd Projects</span>
-					<div class="output">
-					</div>
-				</div>
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret/Projects</span><span class="symbol">$</span>
-					<span class="command">ls</span>
-					<div class="output">
-						<a class="file">Smoodify</a>
-						<a class="file">BlackJack</a>
-					</div>
-				</div>	
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret/Projects</span><span class="symbol">$</span>
-					<span class="command">cat Smoodify</span>
-					<div class="output">
-
-					</div>
-				</div>
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret/Projects</span><span class="symbol">$</span>
-					<span class="command">cd ..</span>
-					<div class="output">
-					</div>
-				</div>
-			</div>
-			<div class="experience">
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret</span><span class="symbol">$</span>
-					<span class="command">cd Experience</span>
-					<div class="output">
-					</div>
-				</div>
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret/Experience</span><span class="symbol">$</span>
-					<span class="command">ls</span>
-					<div class="output">
-						<a class="file">Previous</a>
-						<a class="file">Resume.txt</a>
-					</div>
-				</div>	
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret/Experience</span><span class="symbol">$</span>
-					<span class="command">cd ..</span>
-					<div class="output">
-					</div>
-				</div>
-			</div>
-			<div class="contact">
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret</span><span class="symbol">$</span>
-					<span class="command">cd Contact</span>
-					<div class="output">
-					</div>
-				</div>
-				<div class="line">
-					<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret/Contact</span><span class="symbol">$</span>
-					<span class="command">ls</span>
-					<div class="output">
-						<a href="https://github.com/rchau0623" class="file">Github</a>
-						<a href="https://linkedin.com/in/rchau0623" class="file">LinkedIn</a>
-						<a href="Ryan Chau - Résumé .pdf" class="file">Resume</a>
-						<a href="mailto:rchau@nyu.edu" class="file">Email</a>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </body>

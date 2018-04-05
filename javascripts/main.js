@@ -73,11 +73,9 @@ I am currently a senior at NYU studying Math and Computer Science, looking for f
 
 I enjoy solving problems, mulling over movies, reading out loud, and aspiring to be healthy. 
 
-Welcome to my Linux terminal based website. 
+Welcome to my Linux terminal based website. For the highlights, please checkout my <b><a href="Ryan_Chau-Resume.pdf">resume</a></b>.
 
-For nontechnical people, I apologize that my website may be a bit confusing. Links to navigate through the website are located on the third line, under the ls command, always. 
-
-For technical people, I hope you enjoy my use of theme as an excuse for minimalism. 
+For nontechnical people, I apologize that my website may be a bit confusing. Links to navigate through the website are located on the third line, under the ls command, always. For technical people, I hope you enjoy my use of theme as an excuse for minimalism. 
 	</pre>
 </span>
 `;
@@ -154,7 +152,6 @@ function projects() {
   • <b>Technologies:</b> <i>JavaScript, Node.js, Express, AngularJS, HTML, CSS, Mongoose, MongoDB, Passport.js, Spotify Web API.</i>
 
 Currently in development.
-
 </small>
 	</pre>
 </span>

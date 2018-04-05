@@ -30,7 +30,19 @@
 						loop: false,
 						callback: function() {
 							// $(".typed-cursor").hide();
-							document.querySelector('.link_output').style.display = 'block';
+							document.querySelector('.link_output').style.display = 'inline-block';
+
+							document.querySelector('.link_output').classList.add('animated', 'pulse');
+
+							// document.querySelector('.about_animate').style.display = 'inline-block';
+							// document.querySelector('.projects_animate').style.display = 'inline-block';
+							// document.querySelector('.experience_animate').style.display = 'inline-block';
+							// document.querySelector('.contact_animate').style.display = 'inline-block';
+							// document.querySelector('.about_animate').classList.add('animated', 'pulse');
+							// document.querySelector('.projects_animate').classList.add('animated', 'pulse');
+							// document.querySelector('.experience_animate').classList.add('animated', 'pulse');
+							// document.querySelector('.contact_animate').classList.add('animated', 'pulse');
+
 							document.querySelector('.next').style.display = 'block';
 							document.querySelector('.about_link').click();
 						}
@@ -48,6 +60,7 @@
 			<div class="links">
 				<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links</span><span class="symbol">$</span>
 				<span class="link_command"></span>
+				<div></div>
 				<div class="link_output">
 					<a class="about_link file">About.txt</a>
 					<a class="projects_link folder">Projects</a>

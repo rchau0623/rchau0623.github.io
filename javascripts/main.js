@@ -118,17 +118,22 @@ function projects() {
 	line2.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
 <span class="command2"></span>
+<div></div>
 `;
 
 	const output1 = document.createElement('div');
 	output1.setAttribute('class', 'output1');
 	output1.innerHTML = `
-<a class="file">Smoodify</a>
-<a class="file">BlackJack</a>
+<a href="#smoodify" class="file">Smoodify</a>
+<a href="#chairs" class="file">RealFakeChairsDotCom</a>
+<a href="#blackjack" class="file">Blackjack</a>
+<a href="#platforms" class="file">Err...Platforms...</a>
+<a href="#supercilious" class="file">Supercilious Scoundrel</a>
 `;
 
 	const line3 = document.createElement('div');
 	line3.setAttribute('class', 'line3');
+	line3.setAttribute('id', 'smoodify');
 	line3.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
 <span class="command3"></span>
@@ -137,7 +142,139 @@ function projects() {
 	const output2 = document.createElement('div');
 	output2.setAttribute('class', 'output2');
 	output2.innerHTML = `
+<span>
+	<pre>
+<b>Smoodify</b>
+<a href="smoodify.herokuapp.com">Live Demo</a> • <a href="https://github.com/nyu-software-engineering/mood-music-player">GitHub</a>
 
+<i>JavaScript, Node.js, Express, AngularJS, HTML, CSS, Mongoose, MongoDB, Passport.js, Spotify Web API</i>
+<small>
+  • Building a music streaming application that dynamically understands the user's mood and generates a playlist based on it.
+  • Users can create profiles, connect their Spotify accounts, and use the application to play music.
+  • Plan to implement a neural network for the purposes of mood classification.
+</small>
+
+Built in Spring 2018
+	</pre>
+</span>
+`;
+
+	const line4 = document.createElement('div');
+	line4.setAttribute('class', 'line4');
+	line4.setAttribute('id', 'chairs');
+	line4.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command4"></span>
+`;
+
+	const output3 = document.createElement('div');
+	output3.setAttribute('class', 'output3');
+	output3.innerHTML = `
+<span>
+	<pre>
+<b>RealFakeChairsDotCom</b>
+<a href="https://github.com/rchau0623/RealFakeChairsDotCom">GitHub</a>
+
+<i>JavaScript, Node.js, Express, HTML, CSS, Mongoose, MongoDB, handlebars, Passport.js, Stripe API</i>
+<small>	
+  • Building a website for a mock online chair company using JavaScript and the Express module.
+  • Utilizing HTML, CSS, and handlebars to build the user interface.
+  • Employing Mongoose and MongoDB to store and query product and user data. 
+</small>
+
+Built in Fall 2017
+	</pre>
+</span>
+`;
+
+	const line5 = document.createElement('div');
+	line5.setAttribute('class', 'line5');
+	line5.setAttribute('id', 'blackjack');
+	line5.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command5"></span>
+`;
+
+	const output4 = document.createElement('div');
+	output4.setAttribute('class', 'output4');
+	output4.setAttribute('id', 'blackjack');
+	// <a href="">Live Demo</a> • 
+	output4.innerHTML = `
+<span>
+	<pre>
+<b>Blackjack</b>
+<a href="https://github.com/rchau0623/Blackjack">GitHub</a>
+
+<i>JavaScript, Node.js, Express, HTML, CSS, DOM Manipulation</i>
+<small>	
+
+  • Created a player vs cpu game of blackjack using JavaScript and DOM manipulation.
+  • Uses a single 52 deck of cards, and allows the user to rig the deck with their own chosen cards.
+  • Cards placed on top of the deck by the user will be injected into the deck. 
+  • Event Listeners manage all user interaction. 
+</small>
+
+Built in Fall 2017
+	</pre>
+</span>
+`;
+
+	const line6 = document.createElement('div');
+	line6.setAttribute('class', 'line6');
+	line6.setAttribute('id', 'platforms');
+	line6.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command6"></span>
+`;
+
+	const output5 = document.createElement('div');
+	output5.setAttribute('class', 'output5');
+	output5.innerHTML = `
+<span>
+	<pre>
+<b>Err... Platforms...</b>
+<a href="https://github.com/rchau0623/Err...Platforms...">GitHub</a>
+
+<i>Unity, C#</i>
+<small>
+  • Created a 2D two-player fighting game in Unity.
+  • The objective is to squish the other player by pushing floating platforms into them.
+  • Platforms start off floating in space and move when bumped by players.
+  • Platforms bounce off of walls and each other, resulting in increased entropy. 
+</small>
+
+Built in Fall 2017
+	</pre>
+</span>
+`;
+
+	const line7 = document.createElement('div');
+	line7.setAttribute('class', 'line7');
+	line7.setAttribute('id', 'supercilious');
+	line7.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command7"></span>
+`;
+
+	const output6 = document.createElement('div');
+	output6.setAttribute('class', 'output6');
+	output6.innerHTML = `
+<span>
+	<pre>
+<b>Supercilious Scoundrel</b>
+<a href="https://github.com/rchau0623/Supercilious-Scoundrel">GitHub</a>
+
+<i>Processing, Java</i>
+<small>
+  • Created a 2D platforming game in Processing. 
+  • The objective is to collect honey while avoiding being stung by bees. 
+  • Bees become faster and larger for every five dollops of honey collected.
+  • Number of bees grow exponentially for every 10 dollops of honey collected.
+</small>
+
+Built in Fall 2017
+	</pre>
+</span>
 `;
 
 	const cd = document.createElement('div');
@@ -171,6 +308,8 @@ function projects() {
 				callback: function() {
 					// $('.typed-cursor").hide();
 					line2.appendChild(output1);
+					output1.style.display = 'inline-block';
+					output1.classList.add('animated', 'pulse');
 					content.appendChild(line3);
 					$('.command3').typed({
 						strings: ['cat Smoodify'],
@@ -180,9 +319,53 @@ function projects() {
 						callback: function() {
 							// $('.typed-cursor").hide();
 							line3.appendChild(output2)
-							content.appendChild(cd);
-							footer.style.display = 'none';
-							content.appendChild(footer);
+							content.appendChild(line4);
+							$('.command4').typed({
+								strings: ['cat RealFakeChairsDotCom'],
+								showCursor: false,
+								typeSpeed: 2,	
+								loop: false,
+								callback: function() {
+									// $('.typed-cursor").hide();
+									line4.appendChild(output3)
+									content.appendChild(line5);
+									$('.command5').typed({
+										strings: ['cat Blackjack'],
+										showCursor: false,
+										typeSpeed: 2,	
+										loop: false,
+										callback: function() {
+											// $('.typed-cursor").hide();
+											line5.appendChild(output4)
+											content.appendChild(line6);
+											$('.command6').typed({
+												strings: ['cat Smoodify'],
+												showCursor: false,
+												typeSpeed: 2,	
+												loop: false,
+												callback: function() {
+													// $('.typed-cursor").hide();
+													line6.appendChild(output5)
+													content.appendChild(line7);
+													$('.command7').typed({
+														strings: ['cat Smoodify'],
+														showCursor: false,
+														typeSpeed: 2,	
+														loop: false,
+														callback: function() {
+															// $('.typed-cursor").hide();
+															line7.appendChild(output6)
+															content.appendChild(cd);
+															footer.style.display = 'none';
+															content.appendChild(footer);
+														}
+													});
+												}
+											});
+										}
+									});
+								}
+							});
 						}
 					});
 				}
@@ -227,19 +410,21 @@ function experience() {
 	line2.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Experience</span><span class="symbol">$</span>
 <span class="command2"></span>
+<div></div>
 `;
 
 	const output1 = document.createElement('div');
 	output1.setAttribute('class', 'output1');
 	output1.innerHTML = `
-<a class="file">Skills</a>
-<a class="file">Work Experience</a>
-<a class="file">Education</a>
+<a href="skills" class="file">Skills</a>
+<a href="experience" class="file">Work Experience</a>
+<a href="education" class="file">Education</a>
 <a href="Ryan_Chau-Resume.pdf" rel="noopener noreferrer" target="_blank" class="resume file">Resume.pdf</a>
 `;
 
 	const line3 = document.createElement('div');
 	line3.setAttribute('class', 'line3');
+	line3.setAttribute('id', 'skills');
 	line3.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Experience</span><span class="symbol">$</span>
 <span class="command3"></span>
@@ -267,6 +452,7 @@ function experience() {
 
 	const line4 = document.createElement('div');
 	line4.setAttribute('class', 'line4');
+	line4.setAttribute('id', 'experience');
 	line4.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Experience</span><span class="symbol">$</span>
 <span class="command4"></span>
@@ -308,6 +494,7 @@ function experience() {
 
 	const line5 = document.createElement('div');
 	line5.setAttribute('class', 'line5');
+	line5.setAttribute('id', 'education');
 	line5.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Experience</span><span class="symbol">$</span>
 <span class="command5"></span>
@@ -384,6 +571,8 @@ function experience() {
 				callback: function() {
 					// $(".typed-cursor").hide();
 					line2.appendChild(output1);
+					output1.style.display = 'inline-block';
+					output1.classList.add('animated', 'pulse');
 					content.appendChild(line3);
 					$(".command3").typed({
 						strings: ["cat Skills"],
@@ -444,6 +633,7 @@ function contact() {
 	line2.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Contact</span><span class="symbol">$</span>
 <span class="command2"></span>
+<div></div>
 `;
 
 	const output1 = document.createElement('div');
@@ -486,6 +676,8 @@ function contact() {
 				callback: function() {
 					// $('.typed-cursor").hide();
 					line2.appendChild(output1);
+					output1.style.display = 'inline-block';
+					output1.classList.add('animated', 'pulse');
 					content.appendChild(cd);
 					xdg('/Contact');
 					footer.style.display = 'none';
@@ -502,7 +694,7 @@ function clear(callback) {
 	$('.clear').typed({
 		strings: ['clear'],
 		showCursor: false,
-		typeSpeed: 10,
+		typeSpeed: 70,
 		loop: false,
 		callback: function() {
 			// $('.typed-cursor").hide();

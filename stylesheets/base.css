@@ -35,7 +35,7 @@ pre {
 	font-weight: bold;
 }
 
-.symbol {
+.file .symbol {
 	color: #FAF9FA;
 	font-weight: bold;
 }
@@ -47,7 +47,16 @@ pre {
 
 a {
 	color: #FAF9FA;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.file, a.folder {
 	margin-right: 25px;
+}
+
+a:hover {
+	cursor:pointer;
 }
 
 a.file:hover { 

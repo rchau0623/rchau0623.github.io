@@ -47,19 +47,19 @@ pre {
 
 a {
 	color: #FAF9FA;
-	font-weight: bold;
 	text-decoration: none;
 }
 
 a.file, a.folder {
 	margin-right: 25px;
+	font-weight: bold;
 }
 
 a:hover {
 	cursor:pointer;
 }
 
-a.file:hover { 
+a.file:hover, a:hover { 
 	text-shadow: #FFFFFC 0 0 10px;
 }
 

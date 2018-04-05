@@ -146,15 +146,16 @@ function projects() {
 	<pre>
 <b>Smoodify</b>
 <a href="smoodify.herokuapp.com">Live Demo</a> • <a href="https://github.com/nyu-software-engineering/mood-music-player">GitHub</a>
-
-<i>JavaScript, Node.js, Express, AngularJS, HTML, CSS, Mongoose, MongoDB, Passport.js, Spotify Web API</i>
 <small>
   • Building a music streaming application that dynamically understands the user's mood and generates a playlist based on it.
   • Users can create profiles, connect their Spotify accounts, and use the application to play music.
   • Plan to implement a neural network for the purposes of mood classification.
-</small>
 
-Built in Spring 2018
+  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, AngularJS, HTML, CSS, Mongoose, MongoDB, Passport.js, Spotify Web API.</i>
+
+Currently in development.
+
+</small>
 	</pre>
 </span>
 `;
@@ -174,15 +175,15 @@ Built in Spring 2018
 	<pre>
 <b>RealFakeChairsDotCom</b>
 <a href="https://github.com/rchau0623/RealFakeChairsDotCom">GitHub</a>
-
-<i>JavaScript, Node.js, Express, HTML, CSS, Mongoose, MongoDB, handlebars, Passport.js, Stripe API</i>
 <small>	
   • Building a website for a mock online chair company using JavaScript and the Express module.
   • Utilizing HTML, CSS, and handlebars to build the user interface.
   • Employing Mongoose and MongoDB to store and query product and user data. 
-</small>
 
-Built in Fall 2017
+  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, HTML, CSS, Mongoose, MongoDB, handlebars, Passport.js, Stripe API.</i>
+
+Built in Fall 2017.
+</small>
 	</pre>
 </span>
 `;
@@ -204,17 +205,16 @@ Built in Fall 2017
 	<pre>
 <b>Blackjack</b>
 <a href="https://github.com/rchau0623/Blackjack">GitHub</a>
-
-<i>JavaScript, Node.js, Express, HTML, CSS, DOM Manipulation</i>
 <small>	
-
   • Created a player vs cpu game of blackjack using JavaScript and DOM manipulation.
   • Uses a single 52 deck of cards, and allows the user to rig the deck with their own chosen cards.
   • Cards placed on top of the deck by the user will be injected into the deck. 
   • Event Listeners manage all user interaction. 
-</small>
 
-Built in Fall 2017
+  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, HTML, CSS, DOM Manipulation.</i>
+
+Built in Fall 2017.
+</small>
 	</pre>
 </span>
 `;
@@ -234,16 +234,16 @@ Built in Fall 2017
 	<pre>
 <b>Err... Platforms...</b>
 <a href="https://github.com/rchau0623/Err...Platforms...">GitHub</a>
-
-<i>Unity, C#</i>
 <small>
   • Created a 2D two-player fighting game in Unity.
   • The objective is to squish the other player by pushing floating platforms into them.
   • Platforms start off floating in space and move when bumped by players.
   • Platforms bounce off of walls and each other, resulting in increased entropy. 
-</small>
 
-Built in Fall 2017
+  • <b>Technologies:</b> <i>Unity, C#.</i>
+
+Built in Fall 2017.
+</small>
 	</pre>
 </span>
 `;
@@ -263,16 +263,16 @@ Built in Fall 2017
 	<pre>
 <b>Supercilious Scoundrel</b>
 <a href="https://github.com/rchau0623/Supercilious-Scoundrel">GitHub</a>
-
-<i>Processing, Java</i>
 <small>
   • Created a 2D platforming game in Processing. 
   • The objective is to collect honey while avoiding being stung by bees. 
   • Bees become faster and larger for every five dollops of honey collected.
   • Number of bees grow exponentially for every 10 dollops of honey collected.
-</small>
 
-Built in Fall 2017
+  • <b>Technologies:</b> <i>Processing, Java.</i>
+
+Built in Fall 2017.
+</small>
 	</pre>
 </span>
 `;

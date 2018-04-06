@@ -89,7 +89,7 @@ I am currently a senior at NYU studying Math and Computer Science, looking for f
 
 I enjoy solving problems, mulling over movies, reading out loud, and aspiring to be healthy. 
 
-Welcome to my Linux terminal based website. For the highlights, please checkout my <b><a href="Ryan_Chau-Resume.pdf">resume</a></b>.
+Welcome to my Linux terminal based website. For the highlights, please checkout my <b><a href="Ryan_Chau-Resume.pdf" target="_blank">resume</a></b>.
 
 For nontechnical people, I apologize that my website may be a bit confusing. Links to navigate through the website are located on the third line, under the ls command, always. For technical people, I hope you enjoy my use of theme as an excuse for minimalism. 
 	</pre>
@@ -159,7 +159,7 @@ function projects() {
 <span>
 	<pre>
 <b>Smoodify</b>
-<a href="smoodify.herokuapp.com">Live Demo</a> • <a href="https://github.com/nyu-software-engineering/mood-music-player">GitHub</a>
+<a href="smoodify.herokuapp.com" target="_blank">Live Demo</a> • <a href="https://github.com/nyu-software-engineering/mood-music-player" target="_blank">GitHub</a>
 <small>
   • Building a music streaming application that dynamically understands the user's mood and generates a playlist based on it.
   • Users can create profiles, connect their Spotify accounts, and use the application to play music.
@@ -187,7 +187,7 @@ Currently in development.
 <span>
 	<pre>
 <b>RealFakeChairsDotCom</b>
-<a href="https://github.com/rchau0623/RealFakeChairsDotCom">GitHub</a>
+<a href="https://github.com/rchau0623/RealFakeChairsDotCom" target="_blank">GitHub</a>
 <small>	
   • Building a website for a mock online chair company using JavaScript and the Express module.
   • Utilizing HTML, CSS, and handlebars to build the user interface.
@@ -217,7 +217,7 @@ Built in Fall 2017.
 <span>
 	<pre>
 <b>Blackjack</b>
-<a href="https://github.com/rchau0623/Blackjack">GitHub</a>
+<a href="https://github.com/rchau0623/Blackjack" target="_blank">GitHub</a>
 <small>	
   • Created a player vs cpu game of blackjack using JavaScript and DOM manipulation.
   • Uses a single 52 deck of cards, and allows the user to rig the deck with their own chosen cards.
@@ -246,7 +246,7 @@ Built in Fall 2017.
 <span>
 	<pre>
 <b>Err... Platforms...</b>
-<a href="https://github.com/rchau0623/Err...Platforms...">GitHub</a>
+<a href="https://github.com/rchau0623/Err...Platforms..." target="_blank">GitHub</a>
 <small>
   • Created a 2D two-player fighting game in Unity.
   • The objective is to squish the other player by pushing floating platforms into them.
@@ -275,7 +275,7 @@ Built in Fall 2017.
 <span>
 	<pre>
 <b>Supercilious Scoundrel</b>
-<a href="https://github.com/rchau0623/Supercilious-Scoundrel">GitHub</a>
+<a href="https://github.com/rchau0623/Supercilious-Scoundrel" target="_blank">GitHub</a>
 <small>
   • Created a 2D platforming game in Processing. 
   • The objective is to collect honey while avoiding being stung by bees. 

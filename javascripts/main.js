@@ -429,10 +429,10 @@ function experience() {
 	const output1 = document.createElement('div');
 	output1.setAttribute('class', 'output1');
 	output1.innerHTML = `
-<a href="skills" class="file">Skills</a>
-<a href="experience" class="file">Work Experience</a>
-<a href="education" class="file">Education</a>
-<a href="Ryan_Chau-Resume.pdf" rel="noopener noreferrer" target="_blank" class="resume file">Resume.pdf</a>
+<a href="#skills" class="file">Skills</a>
+<a href="#experience" class="file">Work Experience</a>
+<a href="#education" class="file">Education</a>
+<a href="#Ryan_Chau-Resume.pdf" rel="noopener noreferrer" target="_blank" class="resume file">Resume.pdf</a>
 `;
 
 	const line3 = document.createElement('div');

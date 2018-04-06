@@ -27,25 +27,41 @@ function type_open(link, folder) {
 function xdg(folder) {
 	if (document.querySelector('.github')) {
 		document.querySelector('.github').addEventListener('click', function(evt) {
+			evt.preventDefault();
 			type_open('GitHub', folder);
+			setTimeout(function () {
+				window.open($('.github').attr('href'), '_blank');
+			}, 700);
 		});
 	}
 
 	if (document.querySelector('.linkedin')) {
 		document.querySelector('.linkedin').addEventListener('click', function(evt) {
+			evt.preventDefault();
 			type_open('LinkedIn', folder);
+			setTimeout(function () {
+				window.open($('.linkedin').attr('href'), '_blank');
+			}, 850);
 		});
 	}
 
 	if (document.querySelector('.resume')) {
 		document.querySelector('.resume').addEventListener('click', function(evt) {
+			evt.preventDefault();
 			type_open('Resume.pdf', folder);
+			setTimeout(function () {
+				window.open($('.resume').attr('href'), '_blank');
+			}, 800);
 		});
 	}
 
 	if (document.querySelector('.email')) {
 		document.querySelector('.email').addEventListener('click', function(evt) {
+			evt.preventDefault();
 			type_open('Email', folder);
+			setTimeout(function () {
+				window.open($('.email').attr('href'), '_blank');
+			}, 700);
 		});
 	}
 }

@@ -47,12 +47,21 @@ pre {
 
 a {
 	color: #FAF9FA;
-	text-decoration: none;
 }
 
 a.file, a.folder {
 	margin-right: 25px;
 	font-weight: bold;
+}
+
+.link_output {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 110%;
+}
+
+.highlights {
+	font-size: 110%;
 }
 
 a:hover {

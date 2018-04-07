@@ -89,7 +89,7 @@ I am currently a senior at NYU studying Math and Computer Science, looking for f
 
 I enjoy solving problems, mulling over movies, reading out loud, and aspiring to be healthy. 
 
-Welcome to my Linux terminal based website. For the highlights, please checkout my <b><a href="Ryan_Chau-Resume.pdf" target="_blank">resume</a></b>.
+Welcome to my Linux terminal based website. For the highlights, please checkout my <b><a href="Ryan_Chau-Resume.pdf" target="_blank" class="highlights">resume</a></b>.
 
 For nontechnical people, I apologize that my website may be a bit confusing. Links to navigate through the website are located on the third line, under the ls command, always. For technical people, I hope you enjoy my use of theme as an excuse for minimalism. 
 	</pre>
@@ -136,7 +136,7 @@ function projects() {
 `;
 
 	const output1 = document.createElement('div');
-	output1.setAttribute('class', 'output1');
+	output1.setAttribute('class', 'output1 link_output');
 	output1.innerHTML = `
 <a href="#smoodify" class="file">Smoodify</a>
 <a href="#chairs" class="file">RealFakeChairsDotCom</a>
@@ -427,12 +427,12 @@ function experience() {
 `;
 
 	const output1 = document.createElement('div');
-	output1.setAttribute('class', 'output1');
+	output1.setAttribute('class', 'output1 link_output');
 	output1.innerHTML = `
 <a href="#skills" class="file">Skills</a>
 <a href="#experience" class="file">Work Experience</a>
 <a href="#education" class="file">Education</a>
-<a href="#Ryan_Chau-Resume.pdf" rel="noopener noreferrer" target="_blank" class="resume file">Resume.pdf</a>
+<a href="Ryan_Chau-Resume.pdf" rel="noopener noreferrer" target="_blank" class="resume file">Resume.pdf</a>
 `;
 
 	const line3 = document.createElement('div');
@@ -650,7 +650,7 @@ function contact() {
 `;
 
 	const output1 = document.createElement('div');
-	output1.setAttribute('class', 'output1');
+	output1.setAttribute('class', 'output1 link_output');
 	output1.innerHTML = `
 <a href="https://github.com/rchau0623" rel="noopener noreferrer" target="_blank" class="github file">GitHub</a>
 <a href="https://linkedin.com/in/rchau0623" rel="noopener noreferrer" target="_blank" class="linkedin file">LinkedIn</a>

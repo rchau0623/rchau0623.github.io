@@ -83,7 +83,7 @@ function about() {
 	<pre>
 Hi. My name is
 
-<img src="img/name.png" alt="name">
+<img class="about_name" src="img/name.png" alt="name">
 
 I am currently a senior at NYU studying Math and Computer Science, looking for full time employment. 
 

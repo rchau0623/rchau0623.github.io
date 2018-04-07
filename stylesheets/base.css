@@ -21,6 +21,16 @@ pre {
 	margin-bottom: 5%;
 }
 
+.about_name {
+	margin-left: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 .links, .link_output, .next {
 	display: none;
 }

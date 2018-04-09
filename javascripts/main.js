@@ -128,7 +128,7 @@ For nontechnical people, I apologize that my website may be a bit confusing. Lin
 	content.appendChild(line1);
 
 	$('.command1').typed({
-		strings: ['cat About.txt'],
+		strings: ['cat About'],
 		showCursor: false,
 		typeSpeed: 2,	
 		loop: false,
@@ -322,7 +322,7 @@ Built in Fall 2017.
 	const output7 = document.createElement('div');
 	output7.classList.add('output7', 'link_output');
 	output7.innerHTML = `
-<a href="" class="about_link_footer file">About.txt</a>
+<a href="" class="about_link_footer file">About</a>
 <a href="" class="projects_link_footer folder">Projects</a>
 <a href="" class="experience_link_footer folder">Experience</a>
 <a href="" class="contact_link_footer folder">Contact</a>
@@ -594,7 +594,7 @@ function experience() {
 	const output5 = document.createElement('div');
 	output5.classList.add('output5', 'link_output');
 	output5.innerHTML = `
-<a href="" class="about_link_footer file">About.txt</a>
+<a href="" class="about_link_footer file">About</a>
 <a href="" class="projects_link_footer folder">Projects</a>
 <a href="" class="experience_link_footer folder">Experience</a>
 <a href="" class="contact_link_footer folder">Contact</a>

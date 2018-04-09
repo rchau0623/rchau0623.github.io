@@ -159,7 +159,7 @@ function projects() {
 <span>
 	<pre>
 <b>Smoodify</b>
-<a href="smoodify.herokuapp.com" target="_blank">Live Demo</a> • <a href="https://github.com/nyu-software-engineering/mood-music-player" target="_blank">GitHub</a>
+<a href="https://smoodify.herokuapp.com/" target="_blank">Live Demo</a> • <a href="https://github.com/nyu-software-engineering/mood-music-player" target="_blank">GitHub</a>
 <small>
   • Building a music streaming application that dynamically understands the user's mood and generates a playlist based on it.
   • Users can create profiles, connect their Spotify accounts, and use the application to play music.
@@ -352,7 +352,7 @@ Built in Fall 2017.
 											line5.appendChild(output4)
 											content.appendChild(line6);
 											$('.command6').typed({
-												strings: ['cat Smoodify'],
+												strings: ['cat Err... Platforms...'],
 												showCursor: false,
 												typeSpeed: 2,	
 												loop: false,
@@ -361,7 +361,7 @@ Built in Fall 2017.
 													line6.appendChild(output5)
 													content.appendChild(line7);
 													$('.command7').typed({
-														strings: ['cat Smoodify'],
+														strings: ['cat Supercilious Scoundrel'],
 														showCursor: false,
 														typeSpeed: 2,	
 														loop: false,

@@ -163,7 +163,7 @@ function projects() {
 <a href="#smoodify" class="file">Smoodify</a>
 <a href="#chairs" class="file">RealFakeChairsDotCom</a>
 <a href="#blackjack" class="file">Blackjack</a>
-<a href="#platforms" class="file">Err...Platforms...</a>
+<a href="#platforms" class="file">Err... Platforms...</a>
 <a href="#supercilious" class="file">Supercilious Scoundrel</a>
 `;
 

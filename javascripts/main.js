@@ -1,3 +1,25 @@
+function attach() {
+	document.querySelector('.about_link_footer').addEventListener('click', function(evt) {
+		evt.preventDefault();
+		document.querySelector('.projects_link').click();
+	});
+
+	document.querySelector('.projects_link_footer').addEventListener('click', function(evt) {
+		evt.preventDefault();
+		document.querySelector('.projects_link').click();
+	});
+
+	document.querySelector('.experience_link_footer').addEventListener('click', function(evt) {
+		evt.preventDefault();
+		document.querySelector('.experience_link').click();
+	});
+
+	document.querySelector('.contact_link_footer').addEventListener('click', function(evt) {
+		evt.preventDefault();
+		document.querySelector('.contact_link').click();
+	});
+}
+
 function type_open(link, folder) {
 	const open = document.createElement('div');
 	open.setAttribute('class', 'open');
@@ -290,6 +312,22 @@ Built in Fall 2017.
 </span>
 `;
 
+	const line8 = document.createElement('div');
+	line8.setAttribute('class', 'line8');
+	line8.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command8"></span>
+`;
+
+	const output7 = document.createElement('div');
+	output7.classList.add('output7', 'link_output');
+	output7.innerHTML = `
+<a href="" class="about_link_footer file">About.txt</a>
+<a href="" class="projects_link_footer folder">Projects</a>
+<a href="" class="experience_link_footer folder">Experience</a>
+<a href="" class="contact_link_footer folder">Contact</a>
+`;
+
 	const cd = document.createElement('div');
 	cd.setAttribute('class', 'cd');
 	cd.innerHTML = `
@@ -331,7 +369,7 @@ Built in Fall 2017.
 						loop: false,
 						callback: function() {
 							// $('.typed-cursor").hide();
-							line3.appendChild(output2)
+							line3.appendChild(output2);
 							content.appendChild(line4);
 							$('.command4').typed({
 								strings: ['cat RealFakeChairsDotCom'],
@@ -340,7 +378,7 @@ Built in Fall 2017.
 								loop: false,
 								callback: function() {
 									// $('.typed-cursor").hide();
-									line4.appendChild(output3)
+									line4.appendChild(output3);
 									content.appendChild(line5);
 									$('.command5').typed({
 										strings: ['cat Blackjack'],
@@ -349,7 +387,7 @@ Built in Fall 2017.
 										loop: false,
 										callback: function() {
 											// $('.typed-cursor").hide();
-											line5.appendChild(output4)
+											line5.appendChild(output4);
 											content.appendChild(line6);
 											$('.command6').typed({
 												strings: ['cat Err... Platforms...'],
@@ -358,7 +396,7 @@ Built in Fall 2017.
 												loop: false,
 												callback: function() {
 													// $('.typed-cursor").hide();
-													line6.appendChild(output5)
+													line6.appendChild(output5);
 													content.appendChild(line7);
 													$('.command7').typed({
 														strings: ['cat Supercilious Scoundrel'],
@@ -367,10 +405,22 @@ Built in Fall 2017.
 														loop: false,
 														callback: function() {
 															// $('.typed-cursor").hide();
-															line7.appendChild(output6)
-															content.appendChild(cd);
-															footer.style.display = 'none';
-															content.appendChild(footer);
+															line7.appendChild(output6);
+															content.appendChild(line8);
+															$('.command8').typed({
+																strings: ['ls ..'],
+																showCursor: false,
+																typeSpeed: 100,	
+																loop: false,
+																callback: function() {
+																	line8.append(output7);
+																	output7.style.display = 'block';
+																	attach();
+																	content.appendChild(cd);
+																	footer.style.display = 'none';
+																	content.appendChild(footer);
+																}
+															});
 														}
 													});
 												}
@@ -534,10 +584,26 @@ function experience() {
 </span>
 `;
 
+	const line6 = document.createElement('div');
+	line6.setAttribute('class', 'line6');
+	line6.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command6"></span>
+`;
+
+	const output5 = document.createElement('div');
+	output5.classList.add('output5', 'link_output');
+	output5.innerHTML = `
+<a href="" class="about_link_footer file">About.txt</a>
+<a href="" class="projects_link_footer folder">Projects</a>
+<a href="" class="experience_link_footer folder">Experience</a>
+<a href="" class="contact_link_footer folder">Contact</a>
+`;
+
 	const cd = document.createElement('div');
 	cd.setAttribute('class', 'cd');
 	cd.innerHTML = `
-<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Experience</span><span class="symbol">$</span>
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
 <span class="out"></span>
 `;
 
@@ -604,7 +670,6 @@ function experience() {
 								callback: function() {
 									// $(".typed-cursor").hide();
 									line4.appendChild(output3);
-									
 									content.appendChild(line5);
 									$(".command5").typed({
 										strings: ["cat Education"],
@@ -614,11 +679,23 @@ function experience() {
 										callback: function() {
 											// $(".typed-cursor").hide();
 											line5.appendChild(output4);
-											
-											content.appendChild(cd);
-											xdg('/Experience');
-											footer.style.display = 'none';
-											content.appendChild(footer);
+											content.appendChild(line6);
+											$(".command6").typed({
+												strings: ["ls .."],
+												showCursor: false,
+												typeSpeed: 2,
+												loop: false,
+												callback: function() {
+													// $(".typed-cursor").hide();
+													line6.appendChild(output5);
+													output5.style.display = 'block';
+													attach();
+													content.appendChild(cd);
+													xdg('/Experience');
+													footer.style.display = 'none';
+													content.appendChild(footer);
+												}
+											});
 										}
 									});
 								}

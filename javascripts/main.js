@@ -317,6 +317,7 @@ Built in Fall 2017.
 	line8.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
 <span class="command8"></span>
+<div></div>
 `;
 
 	const output7 = document.createElement('div');
@@ -390,7 +391,7 @@ Built in Fall 2017.
 											line5.appendChild(output4);
 											content.appendChild(line6);
 											$('.command6').typed({
-												strings: ['cat Err... Platforms...'],
+												strings: ['cat Err...\\ Platforms...'],
 												showCursor: false,
 												typeSpeed: 2,	
 												loop: false,
@@ -414,7 +415,8 @@ Built in Fall 2017.
 																loop: false,
 																callback: function() {
 																	line8.append(output7);
-																	output7.style.display = 'block';
+																	output7.style.display = 'inline-block';
+																	output7.classList.add('animated', 'pulse');
 																	attach();
 																	content.appendChild(cd);
 																	footer.style.display = 'none';
@@ -589,6 +591,7 @@ function experience() {
 	line6.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
 <span class="command6"></span>
+<div></div>
 `;
 
 	const output5 = document.createElement('div');
@@ -688,7 +691,8 @@ function experience() {
 												callback: function() {
 													// $(".typed-cursor").hide();
 													line6.appendChild(output5);
-													output5.style.display = 'block';
+													output5.style.display = 'inline-block';
+													output5.classList.add('animated', 'pulse');
 													attach();
 													content.appendChild(cd);
 													xdg('/Experience');

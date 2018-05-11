@@ -211,11 +211,11 @@ Currently in development.
 <b>RealFakeChairsDotCom</b>
 <a href="https://github.com/rchau0623/RealFakeChairsDotCom" target="_blank">GitHub</a>
 <small>	
-  • Building a website for a mock online chair company using JavaScript and the Express module.
-  • Utilizing HTML, CSS, and handlebars to build the user interface.
-  • Employing Mongoose and MongoDB to store and query product and user data. 
+  • Built a website for a mock online chair company using JavaScript and the Express module.
+  • Utilized HTML, CSS, and handlebars to build the user interface.
+  • Employes Mongoose and MongoDB to store and query product and user data. 
 
-  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, HTML, CSS, Mongoose, MongoDB, handlebars, Passport.js, Stripe API.</i>
+  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, HTML, CSS, Mongoose, MongoDB, handlebars, Passport.js, Stripe API, Brain.js.</i>
 
 Built in Fall 2017.
 </small>

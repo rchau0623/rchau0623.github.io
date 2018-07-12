@@ -107,7 +107,7 @@ Hi. My name is
 
 <img class="about_name" src="img/name.png" alt="name">
 
-I am currently a senior at NYU studying Math and Computer Science, looking for full time employment. 
+I am new grad from NYU with a bachelors in  Math and Computer Science, looking for full time employment. 
 
 I enjoy solving problems, mulling over movies, reading out loud, and aspiring to be healthy. 
 
@@ -161,6 +161,7 @@ function projects() {
 	output1.setAttribute('class', 'output1 link_output');
 	output1.innerHTML = `
 <a href="#smoodify" class="file">Smoodify</a>
+<a href="#stwickers" class="file">Stwickers</a>	
 <a href="#chairs" class="file">RealFakeChairsDotCom</a>
 <a href="#blackjack" class="file">Blackjack</a>
 <a href="#platforms" class="file">Err... Platforms...</a>
@@ -187,7 +188,7 @@ function projects() {
   • Users can create profiles, connect their Spotify accounts, and use the application to play music.
   • Plan to implement a neural network for the purposes of mood classification.
 
-  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, AngularJS, HTML, CSS, Mongoose, MongoDB, Passport.js, Spotify Web API.</i>
+  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, AngularJS, HTML, CSS, MongoDB, Passport.js, Spotify Web API.</i>
 
 Currently in development.
 </small>
@@ -197,7 +198,7 @@ Currently in development.
 
 	const line4 = document.createElement('div');
 	line4.setAttribute('class', 'line4');
-	line4.setAttribute('id', 'chairs');
+	line4.setAttribute('id', 'stwickers');
 	line4.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
 <span class="command4"></span>
@@ -208,16 +209,16 @@ Currently in development.
 	output3.innerHTML = `
 <span>
 	<pre>
-<b>RealFakeChairsDotCom</b>
-<a href="https://github.com/rchau0623/RealFakeChairsDotCom" target="_blank">GitHub</a>
-<small>	
-  • Built a website for a mock online chair company using JavaScript and the Express module.
-  • Utilized HTML, CSS, and handlebars to build the user interface.
-  • Employes Mongoose and MongoDB to store and query product and user data. 
+<b>Stwickers</b>
+<a href="https://github.com/rchau0623/Stwickers" target="_blank">GitHub</a>
+<small>
+  •  Built a mock store that sells stickers based on Twitch.tv emoticons using JavaScript and React.js with GatsbyJS.
+  • Set up a basic Node.js server to function as a REST API for the client application.
+  • Uses MongoDB to query store data and store order data. 
 
-  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, HTML, CSS, Mongoose, MongoDB, handlebars, Passport.js, Stripe API, Brain.js.</i>
+  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, React.js, GatsbyJS, HTML, CSS, MongoDB, REST API.</i>
 
-Built in Fall 2017.
+Built in Summer 2018.
 </small>
 	</pre>
 </span>
@@ -225,7 +226,7 @@ Built in Fall 2017.
 
 	const line5 = document.createElement('div');
 	line5.setAttribute('class', 'line5');
-	line5.setAttribute('id', 'blackjack');
+	line5.setAttribute('id', 'chairs');
 	line5.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
 <span class="command5"></span>
@@ -233,9 +234,35 @@ Built in Fall 2017.
 
 	const output4 = document.createElement('div');
 	output4.setAttribute('class', 'output4');
-	output4.setAttribute('id', 'blackjack');
-	// <a href="">Live Demo</a> • 
 	output4.innerHTML = `
+<span>
+	<pre>
+<b>RealFakeChairsDotCom</b>
+<a href="https://github.com/rchau0623/RealFakeChairsDotCom" target="_blank">GitHub</a>
+<small>	
+  • Built a website for a mock online chair company using JavaScript and the Express module.
+  • Utilized HTML, CSS, and handlebars to build the user interface.
+  • Stores and queries product and user data in MongoDB.
+
+  • <b>Technologies:</b> <i>JavaScript, Node.js, Express, HTML, CSS, MongoDB, handlebars, Passport.js, Stripe API, Brain.js.</i>
+
+Built in Fall 2017.
+</small>
+	</pre>
+</span>
+`;
+
+	const line6 = document.createElement('div');
+	line6.setAttribute('class', 'line6');
+	line6.setAttribute('id', 'blackjack');
+	line6.innerHTML = `
+<span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
+<span class="command6"></span>
+`;
+
+	const output5 = document.createElement('div');
+	output5.setAttribute('class', 'output5');
+	output5.innerHTML = `
 <span>
 	<pre>
 <b>Blackjack</b>
@@ -254,17 +281,17 @@ Built in Fall 2017.
 </span>
 `;
 
-	const line6 = document.createElement('div');
-	line6.setAttribute('class', 'line6');
-	line6.setAttribute('id', 'platforms');
-	line6.innerHTML = `
+	const line7 = document.createElement('div');
+	line7.setAttribute('class', 'line7');
+	line7.setAttribute('id', 'platforms');
+	line7.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
-<span class="command6"></span>
+<span class="command7"></span>
 `;
 
-	const output5 = document.createElement('div');
-	output5.setAttribute('class', 'output5');
-	output5.innerHTML = `
+	const output6 = document.createElement('div');
+	output6.setAttribute('class', 'output6');
+	output6.innerHTML = `
 <span>
 	<pre>
 <b>Err... Platforms...</b>
@@ -283,17 +310,17 @@ Built in Fall 2017.
 </span>
 `;
 
-	const line7 = document.createElement('div');
-	line7.setAttribute('class', 'line7');
-	line7.setAttribute('id', 'supercilious');
-	line7.innerHTML = `
+	const line8 = document.createElement('div');
+	line8.setAttribute('class', 'line8');
+	line8.setAttribute('id', 'supercilious');
+	line8.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
-<span class="command7"></span>
+<span class="command8"></span>
 `;
 
-	const output6 = document.createElement('div');
-	output6.setAttribute('class', 'output6');
-	output6.innerHTML = `
+	const output7 = document.createElement('div');
+	output7.setAttribute('class', 'output7');
+	output7.innerHTML = `
 <span>
 	<pre>
 <b>Supercilious Scoundrel</b>
@@ -312,17 +339,17 @@ Built in Fall 2017.
 </span>
 `;
 
-	const line8 = document.createElement('div');
-	line8.setAttribute('class', 'line8');
-	line8.innerHTML = `
+	const line9 = document.createElement('div');
+	line9.setAttribute('class', 'line9');
+	line9.innerHTML = `
 <span class="name">ryan@ryborg</span><span class="symbol">:</span><span class="path">~/Documents/Super Secret Links/Projects</span><span class="symbol">$</span>
-<span class="command8"></span>
+<span class="command9"></span>
 <div></div>
 `;
 
-	const output7 = document.createElement('div');
-	output7.classList.add('output7', 'link_output');
-	output7.innerHTML = `
+	const output8 = document.createElement('div');
+	output8.classList.add('output8', 'link_output');
+	output8.innerHTML = `
 <a href="" class="about_link_footer file">About</a>
 <a href="" class="projects_link_footer folder">Projects</a>
 <a href="" class="experience_link_footer folder">Experience</a>
@@ -373,7 +400,7 @@ Built in Fall 2017.
 							line3.appendChild(output2);
 							content.appendChild(line4);
 							$('.command4').typed({
-								strings: ['cat RealFakeChairsDotCom'],
+								strings: ['cat Stwickers'],
 								showCursor: false,
 								typeSpeed: 2,	
 								loop: false,
@@ -382,7 +409,7 @@ Built in Fall 2017.
 									line4.appendChild(output3);
 									content.appendChild(line5);
 									$('.command5').typed({
-										strings: ['cat Blackjack'],
+										strings: ['cat RealFakeChairsDotCom'],
 										showCursor: false,
 										typeSpeed: 2,	
 										loop: false,
@@ -391,7 +418,7 @@ Built in Fall 2017.
 											line5.appendChild(output4);
 											content.appendChild(line6);
 											$('.command6').typed({
-												strings: ['cat Err...\\ Platforms...'],
+												strings: ['cat Blackjack'],
 												showCursor: false,
 												typeSpeed: 2,	
 												loop: false,
@@ -400,7 +427,7 @@ Built in Fall 2017.
 													line6.appendChild(output5);
 													content.appendChild(line7);
 													$('.command7').typed({
-														strings: ['cat Supercilious Scoundrel'],
+														strings: ['cat Err...\\ Platforms...'],
 														showCursor: false,
 														typeSpeed: 2,	
 														loop: false,
@@ -409,18 +436,29 @@ Built in Fall 2017.
 															line7.appendChild(output6);
 															content.appendChild(line8);
 															$('.command8').typed({
-																strings: ['ls ..'],
+																strings: ['cat Supercilious Scoundrel'],
 																showCursor: false,
-																typeSpeed: 100,	
+																typeSpeed: 2,	
 																loop: false,
 																callback: function() {
-																	line8.append(output7);
-																	output7.style.display = 'inline-block';
-																	output7.classList.add('animated', 'pulse');
-																	attach();
-																	content.appendChild(cd);
-																	footer.style.display = 'none';
-																	content.appendChild(footer);
+																	// $('.typed-cursor").hide();
+																	line8.appendChild(output7);
+																	content.appendChild(line9);
+																	$('.command9').typed({
+																		strings: ['ls ..'],
+																		showCursor: false,
+																		typeSpeed: 100,	
+																		loop: false,
+																		callback: function() {
+																			line9.append(output8);
+																			output8.style.display = 'inline-block';
+																			output8.classList.add('animated', 'pulse');
+																			attach();
+																			content.appendChild(cd);
+																			footer.style.display = 'none';
+																			content.appendChild(footer);
+																		}
+																	});
 																}
 															});
 														}
@@ -502,14 +540,14 @@ function experience() {
 	<pre>
 <b>TECHNICAL SKILLS:</b>
 <small>
-  • <b>Programming Languages:</b> Java, JavaScript, Python, C, SQL, MATLAB, HTML, CSS
-  • <b>Framework & Tools:</b> Node.js, AngularJS, Mongoose, MongoDB, MEAN Stack, handlebars, LaTeX, Git, Agile, Scrum, VBA, Processing, Unity, Excel, Pivot Tables, Linux (Ubuntu), Photoshop
+  • <b>Programming Languages:</b> Java, JavaScript, Python, SQL, C, C#, MATLAB, HTML, CSS
+  • <b>Framework & Tools:</b> Node.js, MongoDB, MySQL, MySQL Workbench, SQLite, scikit-learn, Angular, MEAN Stack, React, Typescript, LAMP stack, pandas, LaTeX, Git, Agile Development (Scrum), VBA, Processing, Unity, Excel, Pivot Tables, Linux, Photoshop
 </small>
 
 <b>OTHER SKILLS:</b>
 <small>
   • <b>Professional Skills:</b> Customer Relations, Records Management
-  • <b>Languages:</b> English (native), Mandarin (native), Spanish (intermediate proficiency)
+  • <b>Languages:</b> English (native), Mandarin (native), Spanish (intermediate)
 </small>
 	</pre>
 </span>
@@ -532,7 +570,7 @@ function experience() {
 <i>New York, NY (June 2017 — September 2017)</i>
 <small>
   • Worked under the Department of Litigations in the Office of Records Management.
-  • Used VBA to recompile large, antiquated spreadsheets into Excel for legibility and versatility.
+  • Used VBA to recompile antiquated Excel spreadsheets of ~60,000 records for legibility and versatility.
   • Entered and categorized data from records across every department within the Department of Transportation.
   • Organized records for legal disposal and reclassified any older records that lacked or contained inaccurate metadata.
   • Attended meetings regarding transitioning information management systems as a technical consultant
@@ -541,7 +579,7 @@ function experience() {
 <b>Fuhu Inc. (Mazarine nabi cares)</b> • Data Analyst Intern 
 <i>El Segundo, CA (June 2015 — July 2015)</i>
 <small>
-  • Worked under the Innovations and Customer Service Departments.
+  • Analyzed call volumes to render predictive charts used in managing the schedules of ~40 employees.
   • Analyzed call volumes to render predictive charts used in managing limited resources.
   • Used pivot tables to generate weekly reports that kept metrics on resource utilization and case content.
   • Led the formulation of a cohesive internship program as the first intern.
@@ -571,9 +609,8 @@ function experience() {
 <span>
 	<pre>
 <b>New York University</b> • Bachelors in Mathematics and Computer Science
-<i>New York, NY (September 2015 — Present)</i>
+<i>New York, NY (September 2015 — May 2018)</i>
 <small>
-  • <b>Expected graduation:</b> May 2018
   • <b>Relevant Coursework:</b> Abstract Algebra, Partial Differential Equations, Data Structures, Real Analysis, Computer Systems, Discrete Mathematics, Operating Systems, Algorithms, Theory of Probability, Algorithmic Problem Solving, Numerical Computing, Applied Internet Technology, Machine Learning, Database Design and Web Implementation, Open Source Software Development, Software Engineering
 </small>
 

@@ -107,7 +107,7 @@ Hi. My name is
 
 <img class="about_name" src="img/name.png" alt="name">
 
-I am new grad from NYU with a bachelors in  Math and Computer Science, looking for full time employment. 
+I am a new grad from NYU with a bachelors in  Math and Computer Science, looking for full time employment. 
 
 I enjoy solving problems, mulling over movies, reading out loud, and aspiring to be healthy. 
 
